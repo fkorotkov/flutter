@@ -6,6 +6,7 @@
 
 
 use_compute_credits: $CIRRUS_USER_COLLABORATOR == 'true'
+experimental: true
 
 environment:
   # For details about environment variables used in Cirrus, including how encrypted variables work,
